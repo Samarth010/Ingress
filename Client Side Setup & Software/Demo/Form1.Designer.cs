@@ -38,7 +38,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtenroll = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.txtpass = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.BtnSubmit = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -54,7 +53,6 @@
             this.BtnGuest = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabSelector2 = new MaterialSkin.Controls.MaterialTabSelector();
@@ -63,12 +61,14 @@
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.txtTimer = new System.Windows.Forms.Label();
             this.LblRemaining = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.TabCont.SuspendLayout();
             this.login.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.forgotpass.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,12 +148,12 @@
             // 
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel3.Location = new System.Drawing.Point(166, 97);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(81, 19);
+            this.materialLabel3.Size = new System.Drawing.Size(79, 18);
             this.materialLabel3.TabIndex = 6;
             this.materialLabel3.Text = "IP Address";
             // 
@@ -199,26 +199,16 @@
             this.txtenroll.TabIndex = 26;
             this.txtenroll.UseSystemPasswordChar = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Demo.Properties.Resources.GPERI_LOGO;
-            this.pictureBox1.Location = new System.Drawing.Point(4, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 190);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 22;
-            this.pictureBox1.TabStop = false;
-            // 
             // materialLabel1
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel1.Location = new System.Drawing.Point(353, 78);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(58, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(58, 18);
             this.materialLabel1.TabIndex = 1;
             this.materialLabel1.Text = "User ID";
             // 
@@ -255,12 +245,12 @@
             // 
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel2.Location = new System.Drawing.Point(336, 119);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(75, 19);
+            this.materialLabel2.Size = new System.Drawing.Size(75, 18);
             this.materialLabel2.TabIndex = 3;
             this.materialLabel2.Text = "Password";
             // 
@@ -311,9 +301,9 @@
             this.forgotpass.Controls.Add(this.BtnGuest);
             this.forgotpass.Controls.Add(this.materialLabel5);
             this.forgotpass.Controls.Add(this.label6);
-            this.forgotpass.Controls.Add(this.pictureBox2);
             this.forgotpass.Controls.Add(this.materialFlatButton1);
             this.forgotpass.Controls.Add(this.materialLabel6);
+            this.forgotpass.Controls.Add(this.pictureBox2);
             this.forgotpass.Location = new System.Drawing.Point(4, 22);
             this.forgotpass.Name = "forgotpass";
             this.forgotpass.Padding = new System.Windows.Forms.Padding(3);
@@ -351,12 +341,12 @@
             // 
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel4.Location = new System.Drawing.Point(439, 251);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(58, 19);
+            this.materialLabel4.Size = new System.Drawing.Size(58, 18);
             this.materialLabel4.TabIndex = 29;
             this.materialLabel4.Text = "User ID";
             // 
@@ -393,12 +383,12 @@
             // 
             this.materialLabel5.AutoSize = true;
             this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel5.Location = new System.Drawing.Point(422, 292);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(75, 19);
+            this.materialLabel5.Size = new System.Drawing.Size(75, 18);
             this.materialLabel5.TabIndex = 31;
             this.materialLabel5.Text = "Password";
             // 
@@ -411,16 +401,6 @@
             this.label6.Size = new System.Drawing.Size(199, 31);
             this.label6.TabIndex = 32;
             this.label6.Text = "Login As Guest";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Demo.Properties.Resources.GPERI_LOGO;
-            this.pictureBox2.Location = new System.Drawing.Point(89, 186);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(178, 190);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
             // 
             // materialFlatButton1
             // 
@@ -443,12 +423,12 @@
             // 
             this.materialLabel6.AutoSize = true;
             this.materialLabel6.Depth = 0;
-            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel6.Location = new System.Drawing.Point(397, 357);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(0, 19);
+            this.materialLabel6.Size = new System.Drawing.Size(0, 18);
             this.materialLabel6.TabIndex = 5;
             // 
             // materialTabSelector2
@@ -512,6 +492,26 @@
             this.LblRemaining.TabIndex = 24;
             this.LblRemaining.Text = "Time Left";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Demo.Properties.Resources.INGRESS_FINAL_LOGO;
+            this.pictureBox1.Location = new System.Drawing.Point(4, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(292, 190);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Demo.Properties.Resources.GPERI_LOGO;
+            this.pictureBox2.Location = new System.Drawing.Point(89, 186);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(178, 190);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 26;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -535,9 +535,9 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.forgotpass.ResumeLayout(false);
             this.forgotpass.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

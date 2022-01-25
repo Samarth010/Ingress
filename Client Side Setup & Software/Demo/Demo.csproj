@@ -111,10 +111,11 @@
     <None Include="Resources\user-icon-6.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GPERI_LOGO.png" />
+    <None Include="Resources\BANNER.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BANNER.png" />
+    <Content Include="Resources\INGRESS FINAL LOGO.png" />
+    <None Include="Resources\INGRESS FINAL LOGO1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
